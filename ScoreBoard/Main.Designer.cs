@@ -31,22 +31,27 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtPlayerOneName = new System.Windows.Forms.TextBox();
+            this.txtOneName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.txtOneNum = new System.Windows.Forms.TextBox();
+            this.txtTwoName = new System.Windows.Forms.TextBox();
+            this.txtTwoNum = new System.Windows.Forms.TextBox();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.btnSwitch = new System.Windows.Forms.Button();
+            this.txtMain = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(658, 377);
+            this.btnUpdate.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnUpdate.Location = new System.Drawing.Point(377, 234);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(122, 48);
-            this.btnUpdate.TabIndex = 0;
+            this.btnUpdate.Size = new System.Drawing.Size(126, 45);
+            this.btnUpdate.TabIndex = 5;
             this.btnUpdate.Text = "출력";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
@@ -54,107 +59,161 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(53, 69);
+            this.label1.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(25, 114);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 24);
+            this.label1.Size = new System.Drawing.Size(100, 32);
             this.label1.TabIndex = 1;
-            this.label1.Text = "1p 이름";
+            this.label1.Text = "1P 이름";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(53, 213);
+            this.label2.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Location = new System.Drawing.Point(25, 194);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 24);
+            this.label2.Size = new System.Drawing.Size(100, 32);
             this.label2.TabIndex = 2;
-            this.label2.Text = "2p 이름";
+            this.label2.Text = "2P 이름";
             // 
-            // txtPlayerOneName
+            // txtOneName
             // 
-            this.txtPlayerOneName.Location = new System.Drawing.Point(51, 111);
-            this.txtPlayerOneName.Name = "txtPlayerOneName";
-            this.txtPlayerOneName.Size = new System.Drawing.Size(194, 21);
-            this.txtPlayerOneName.TabIndex = 3;
+            this.txtOneName.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.txtOneName.Location = new System.Drawing.Point(24, 145);
+            this.txtOneName.Margin = new System.Windows.Forms.Padding(2);
+            this.txtOneName.Name = "txtOneName";
+            this.txtOneName.Size = new System.Drawing.Size(170, 33);
+            this.txtOneName.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(404, 69);
+            this.label3.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Location = new System.Drawing.Point(199, 114);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 24);
+            this.label3.Size = new System.Drawing.Size(100, 32);
             this.label3.TabIndex = 4;
-            this.label3.Text = "1p 점수";
+            this.label3.Text = "1P 점수";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label4.Location = new System.Drawing.Point(404, 213);
+            this.label4.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.Location = new System.Drawing.Point(199, 194);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 24);
+            this.label4.Size = new System.Drawing.Size(100, 32);
             this.label4.TabIndex = 5;
-            this.label4.Text = "2p 점수";
+            this.label4.Text = "2P 점수";
             // 
-            // textBox2
+            // txtOneNum
             // 
-            this.textBox2.Location = new System.Drawing.Point(408, 111);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(194, 21);
-            this.textBox2.TabIndex = 6;
+            this.txtOneNum.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.txtOneNum.Location = new System.Drawing.Point(202, 145);
+            this.txtOneNum.Margin = new System.Windows.Forms.Padding(2);
+            this.txtOneNum.Name = "txtOneNum";
+            this.txtOneNum.Size = new System.Drawing.Size(170, 33);
+            this.txtOneNum.TabIndex = 2;
             // 
-            // textBox3
+            // txtTwoName
             // 
-            this.textBox3.Location = new System.Drawing.Point(51, 256);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(194, 21);
-            this.textBox3.TabIndex = 7;
+            this.txtTwoName.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.txtTwoName.Location = new System.Drawing.Point(24, 226);
+            this.txtTwoName.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTwoName.Name = "txtTwoName";
+            this.txtTwoName.Size = new System.Drawing.Size(170, 33);
+            this.txtTwoName.TabIndex = 3;
             // 
-            // textBox4
+            // txtTwoNum
             // 
-            this.textBox4.Location = new System.Drawing.Point(408, 256);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(194, 21);
-            this.textBox4.TabIndex = 8;
+            this.txtTwoNum.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.txtTwoNum.Location = new System.Drawing.Point(202, 226);
+            this.txtTwoNum.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTwoNum.Name = "txtTwoNum";
+            this.txtTwoNum.Size = new System.Drawing.Size(170, 33);
+            this.txtTwoNum.TabIndex = 4;
             // 
-            // button1
+            // btnReset
             // 
-            this.button1.Location = new System.Drawing.Point(658, 111);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 48);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "점수리셋";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnReset.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnReset.Location = new System.Drawing.Point(377, 129);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(2);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(126, 45);
+            this.btnReset.TabIndex = 9;
+            this.btnReset.Text = "텍스트 리셋\r\n(출력아님)";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
-            // button2
+            // btnSwitch
             // 
-            this.button2.Location = new System.Drawing.Point(658, 189);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(122, 48);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "자리바꾸기";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSwitch.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnSwitch.Location = new System.Drawing.Point(377, 181);
+            this.btnSwitch.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSwitch.Name = "btnSwitch";
+            this.btnSwitch.Size = new System.Drawing.Size(126, 45);
+            this.btnSwitch.TabIndex = 10;
+            this.btnSwitch.Text = "자리바꾸기";
+            this.btnSwitch.UseVisualStyleBackColor = true;
+            this.btnSwitch.Click += new System.EventHandler(this.btnSwitch_Click);
+            // 
+            // txtMain
+            // 
+            this.txtMain.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.txtMain.Location = new System.Drawing.Point(24, 69);
+            this.txtMain.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMain.Name = "txtMain";
+            this.txtMain.Size = new System.Drawing.Size(479, 33);
+            this.txtMain.TabIndex = 0;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label5.Location = new System.Drawing.Point(190, 37);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(143, 32);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "메인 타이틀";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label6.Location = new System.Drawing.Point(404, 7);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(99, 17);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "제작자 : 삐라츄";
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 9F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.ClientSize = new System.Drawing.Size(529, 303);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtMain);
+            this.Controls.Add(this.btnSwitch);
+            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.txtTwoNum);
+            this.Controls.Add(this.txtTwoName);
+            this.Controls.Add(this.txtOneNum);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtPlayerOneName);
+            this.Controls.Add(this.txtOneName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnUpdate);
+            this.Font = new System.Drawing.Font("굴림", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Main";
-            this.Text = "Main";
+            this.Text = "스코어보드프로그램 v1.0";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,13 +224,16 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtPlayerOneName;
+        private System.Windows.Forms.TextBox txtOneName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtOneNum;
+        private System.Windows.Forms.TextBox txtTwoName;
+        private System.Windows.Forms.TextBox txtTwoNum;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnSwitch;
+        private System.Windows.Forms.TextBox txtMain;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }

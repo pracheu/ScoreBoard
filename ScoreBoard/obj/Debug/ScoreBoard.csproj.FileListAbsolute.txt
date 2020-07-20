@@ -11,16 +11,3 @@ D:\CWorkSpac\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.csproj.CopyComplete
 D:\CWorkSpac\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.exe
 D:\CWorkSpac\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.pdb
 D:\CWorkSpac\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.Main.resources
-D:\CWorkSpace\ScoreBoard\ScoreBoard\bin\Debug\ScoreBoard.exe.config
-D:\CWorkSpace\ScoreBoard\ScoreBoard\bin\Debug\ScoreBoard.exe
-D:\CWorkSpace\ScoreBoard\ScoreBoard\bin\Debug\ScoreBoard.pdb
-D:\CWorkSpace\ScoreBoard\ScoreBoard\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
-D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.csprojAssemblyReference.cache
-D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.Main.resources
-D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.ScoreBoard.resources
-D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.Properties.Resources.resources
-D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.csproj.GenerateResource.cache
-D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.csproj.CoreCompileInputs.cache
-D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.csproj.CopyComplete
-D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.exe
-D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Debug\ScoreBoard.pdb

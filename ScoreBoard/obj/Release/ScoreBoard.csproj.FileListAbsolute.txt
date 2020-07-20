@@ -1,0 +1,12 @@
+D:\CWorkSpace\ScoreBoard\ScoreBoard\bin\Release\ScoreBoard.exe.config
+D:\CWorkSpace\ScoreBoard\ScoreBoard\bin\Release\ScoreBoard.exe
+D:\CWorkSpace\ScoreBoard\ScoreBoard\bin\Release\ScoreBoard.pdb
+D:\CWorkSpace\ScoreBoard\ScoreBoard\bin\Release\Microsoft.VisualStudio.DebuggerVisualizers.dll
+D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Release\ScoreBoard.Main.resources
+D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Release\ScoreBoard.Properties.Resources.resources
+D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Release\ScoreBoard.csproj.GenerateResource.cache
+D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Release\ScoreBoard.csproj.CoreCompileInputs.cache
+D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Release\ScoreBoard.csproj.CopyComplete
+D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Release\ScoreBoard.exe
+D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Release\ScoreBoard.pdb
+D:\CWorkSpace\ScoreBoard\ScoreBoard\obj\Release\ScoreBoard.ScoreBoardLive.resources
