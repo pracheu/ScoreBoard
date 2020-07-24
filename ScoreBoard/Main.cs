@@ -23,7 +23,7 @@ namespace ScoreBoard
             bool fO = false;
             foreach(Form frm in Application.OpenForms)
             {
-                if(frm.Name == "ScoreBoard")
+                if(frm.Name == "ScoreBoardLive")
                 {
                     fO = true;
                 }
@@ -73,7 +73,25 @@ namespace ScoreBoard
         {
             if (checkTextBlank())
             {
-                SwitchScore();
+                bool fO = false;
+                foreach (Form frm in Application.OpenForms)
+                {
+                    if (frm.Name == "ScoreBoardLive")
+                    {
+                        fO = true;
+                    }
+                }
+                if (!fO)
+                {
+                    newScore = new ScoreBoardLive();
+                    newScore.Show();
+                    newScore.getScore(txtOneName.Text, txtTwoName.Text, txtOneNum.Text, txtTwoNum.Text, txtMain.Text);
+                    SwitchScore();
+                }
+                else
+                {
+                    SwitchScore();
+                }
             }
         }
 
@@ -98,6 +116,11 @@ namespace ScoreBoard
             else if (txtTwoNum.Text.Trim().Equals(""))
             {
                 System.Windows.Forms.MessageBox.Show("2P의 점수가 입력되지 않았습니다.");
+                result = false;
+            }
+            else if (txtMain.Text.Trim().Equals(""))
+            {
+                System.Windows.Forms.MessageBox.Show("메인타이틀이 입력되지 않았습니다.");
                 result = false;
             }
             return result;

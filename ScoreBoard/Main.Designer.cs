@@ -184,18 +184,18 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label6.Location = new System.Drawing.Point(404, 7);
+            this.label6.Location = new System.Drawing.Point(127, 293);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 17);
+            this.label6.Size = new System.Drawing.Size(276, 17);
             this.label6.TabIndex = 12;
-            this.label6.Text = "제작자 : 삐라츄";
+            this.label6.Text = "Copyright 2020. 삐라츄. All rights reserved";
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 9F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 303);
+            this.ClientSize = new System.Drawing.Size(529, 319);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtMain);
             this.Controls.Add(this.btnSwitch);
