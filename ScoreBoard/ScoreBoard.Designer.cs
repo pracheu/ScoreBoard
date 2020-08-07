@@ -50,7 +50,7 @@
             // lblOneScore
             // 
             this.lblOneScore.BackColor = System.Drawing.Color.Black;
-            this.lblOneScore.Font = new System.Drawing.Font("한컴 백제 M", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblOneScore.Font = new System.Drawing.Font("배달의민족 도현", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblOneScore.ForeColor = System.Drawing.Color.White;
             this.lblOneScore.Location = new System.Drawing.Point(56, 52);
             this.lblOneScore.Name = "lblOneScore";
@@ -62,7 +62,7 @@
             // lblTwoScore
             // 
             this.lblTwoScore.BackColor = System.Drawing.Color.Black;
-            this.lblTwoScore.Font = new System.Drawing.Font("한컴 백제 M", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblTwoScore.Font = new System.Drawing.Font("배달의민족 도현", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblTwoScore.ForeColor = System.Drawing.Color.White;
             this.lblTwoScore.Location = new System.Drawing.Point(1053, 52);
             this.lblTwoScore.Name = "lblTwoScore";
@@ -74,7 +74,7 @@
             // lblOneName
             // 
             this.lblOneName.BackColor = System.Drawing.Color.Black;
-            this.lblOneName.Font = new System.Drawing.Font("한컴 백제 M", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblOneName.Font = new System.Drawing.Font("배달의민족 도현", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblOneName.ForeColor = System.Drawing.Color.White;
             this.lblOneName.Location = new System.Drawing.Point(159, 52);
             this.lblOneName.Name = "lblOneName";
@@ -86,7 +86,7 @@
             // lblTwoName
             // 
             this.lblTwoName.BackColor = System.Drawing.Color.Black;
-            this.lblTwoName.Font = new System.Drawing.Font("한컴 백제 M", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblTwoName.Font = new System.Drawing.Font("배달의민족 도현", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblTwoName.ForeColor = System.Drawing.Color.White;
             this.lblTwoName.Location = new System.Drawing.Point(760, 52);
             this.lblTwoName.Name = "lblTwoName";
@@ -98,7 +98,7 @@
             // lblMain
             // 
             this.lblMain.BackColor = System.Drawing.Color.Black;
-            this.lblMain.Font = new System.Drawing.Font("한컴 백제 M", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblMain.Font = new System.Drawing.Font("배달의민족 도현", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblMain.ForeColor = System.Drawing.Color.White;
             this.lblMain.Location = new System.Drawing.Point(479, 52);
             this.lblMain.Name = "lblMain";

@@ -29,36 +29,36 @@ namespace ScoreBoard
             pbScore.Image = Properties.Resources.score4;
             lblOneScore.BackColor = Color.Transparent;
             lblOneScore.Parent = pbScore;
-            lblOneScore.Location = new Point(42, 12);
+            lblOneScore.Location = new Point(42, 18);
             lblOneScore.Text = "";
             lblOneScore.Size = new Size(78, 48);
             lblOneScore.AutoSize = false;
 
             lblTwoScore.BackColor = Color.Transparent;
             lblTwoScore.Parent = pbScore;
-            lblTwoScore.Location = new Point(1039, 12);
+            lblTwoScore.Location = new Point(1039, 18);
             lblTwoScore.Text = "";
             lblTwoScore.Size = new Size(78, 48);
             lblTwoScore.AutoSize = false;
 
             lblOneName.BackColor = Color.Transparent;
             lblOneName.Parent = pbScore;
-            lblOneName.Location = new Point(145, 12);
+            lblOneName.Location = new Point(145, 18);
             lblOneName.Size = new Size(264, 48);
             lblOneName.Text = "";
             lblOneName.AutoSize = false;
 
             lblTwoName.BackColor = Color.Transparent;
             lblTwoName.Parent = pbScore;
-            lblTwoName.Location = new Point(746, 12);
+            lblTwoName.Location = new Point(746, 18);
             lblTwoName.Size = new Size(264, 48);
             lblTwoName.Text = "";
             lblTwoName.AutoSize = false;
 
             lblMain.BackColor = Color.Transparent;
             lblMain.Parent = pbScore;
-            lblMain.Location = new Point(450, 6);
-            lblMain.Size = new Size(264, 48);
+            lblMain.Location = new Point(453, 10);
+            lblMain.Size = new Size(258, 48);
             lblMain.AutoSize = false;
 
         }
