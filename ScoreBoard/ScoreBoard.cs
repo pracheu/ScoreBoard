@@ -101,5 +101,31 @@ namespace ScoreBoard
             
             return new Font(ft.Name, ft.SizeInPoints * (Faktor) - 1);
         }
+
+
+        
+        private Point mousePoint;
+
+        private void Function_MouseDown(object sender, MouseEventArgs e)
+        {
+            mousePoint = new Point(e.X, e.Y);
+        }
+        // 마우스 클릭시 먼저 선언된 mousePoint변수에 현재 마우스 위치값이 들어갑니다.
+
+        private void Function_MouseMove(object sender, MouseEventArgs e)
+        {
+            if ((e.Button & MouseButtons.Left) == MouseButtons.Left)
+            {
+                Location = new Point(this.Left - (mousePoint.X - e.X),
+                    this.Top - (mousePoint.Y - e.Y));
+            }
+        }
+        // 클릭상태로 마우스를 이동시 이동한 만큼에서 윈도우 위치값을 빼게됩니다.
+
+        private void Function_DoubleClick(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }

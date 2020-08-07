@@ -125,6 +125,9 @@
             this.Text = "ScoreBoardLive";
             this.TransparencyKey = System.Drawing.Color.SkyBlue;
             this.Load += new System.EventHandler(this.ScoreBoard_Load);
+            this.DoubleClick += new System.EventHandler(this.Function_DoubleClick);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Function_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Function_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.pbScore)).EndInit();
             this.ResumeLayout(false);
 

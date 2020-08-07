@@ -42,6 +42,15 @@
             this.txtMain = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnOneScoreUp = new System.Windows.Forms.Button();
+            this.btnOneScoreDown = new System.Windows.Forms.Button();
+            this.btnTwoScoreUp = new System.Windows.Forms.Button();
+            this.btnTwoScoreDown = new System.Windows.Forms.Button();
+            this.menuInfo = new System.Windows.Forms.MenuStrip();
+            this.tmInfo = new System.Windows.Forms.ToolStripMenuItem();
+            this.tmInfoUse = new System.Windows.Forms.ToolStripMenuItem();
+            this.tmInfoHotkey = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuInfo.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnUpdate
@@ -115,8 +124,9 @@
             this.txtOneNum.Location = new System.Drawing.Point(202, 145);
             this.txtOneNum.Margin = new System.Windows.Forms.Padding(2);
             this.txtOneNum.Name = "txtOneNum";
-            this.txtOneNum.Size = new System.Drawing.Size(170, 33);
+            this.txtOneNum.Size = new System.Drawing.Size(109, 33);
             this.txtOneNum.TabIndex = 2;
+            this.txtOneNum.Text = "0";
             // 
             // txtTwoName
             // 
@@ -133,8 +143,9 @@
             this.txtTwoNum.Location = new System.Drawing.Point(202, 226);
             this.txtTwoNum.Margin = new System.Windows.Forms.Padding(2);
             this.txtTwoNum.Name = "txtTwoNum";
-            this.txtTwoNum.Size = new System.Drawing.Size(170, 33);
+            this.txtTwoNum.Size = new System.Drawing.Size(109, 33);
             this.txtTwoNum.TabIndex = 4;
+            this.txtTwoNum.Text = "0";
             // 
             // btnReset
             // 
@@ -173,7 +184,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label5.Location = new System.Drawing.Point(190, 37);
+            this.label5.Location = new System.Drawing.Point(190, 32);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(143, 32);
@@ -191,11 +202,92 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "Copyright 2020. 삐라츄. All rights reserved";
             // 
+            // btnOneScoreUp
+            // 
+            this.btnOneScoreUp.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnOneScoreUp.Location = new System.Drawing.Point(328, 129);
+            this.btnOneScoreUp.Name = "btnOneScoreUp";
+            this.btnOneScoreUp.Size = new System.Drawing.Size(34, 32);
+            this.btnOneScoreUp.TabIndex = 13;
+            this.btnOneScoreUp.Text = "▲";
+            this.btnOneScoreUp.UseVisualStyleBackColor = true;
+            this.btnOneScoreUp.Click += new System.EventHandler(this.btnOneScoreUp_Click);
+            // 
+            // btnOneScoreDown
+            // 
+            this.btnOneScoreDown.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnOneScoreDown.Location = new System.Drawing.Point(328, 158);
+            this.btnOneScoreDown.Name = "btnOneScoreDown";
+            this.btnOneScoreDown.Size = new System.Drawing.Size(34, 32);
+            this.btnOneScoreDown.TabIndex = 14;
+            this.btnOneScoreDown.Text = "▼";
+            this.btnOneScoreDown.UseVisualStyleBackColor = true;
+            this.btnOneScoreDown.Click += new System.EventHandler(this.btnOneScoreDown_Click);
+            // 
+            // btnTwoScoreUp
+            // 
+            this.btnTwoScoreUp.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnTwoScoreUp.Location = new System.Drawing.Point(328, 212);
+            this.btnTwoScoreUp.Name = "btnTwoScoreUp";
+            this.btnTwoScoreUp.Size = new System.Drawing.Size(34, 32);
+            this.btnTwoScoreUp.TabIndex = 13;
+            this.btnTwoScoreUp.Text = "▲";
+            this.btnTwoScoreUp.UseVisualStyleBackColor = true;
+            this.btnTwoScoreUp.Click += new System.EventHandler(this.btnTwoScoreUp_Click);
+            // 
+            // btnTwoScoreDown
+            // 
+            this.btnTwoScoreDown.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnTwoScoreDown.Location = new System.Drawing.Point(328, 242);
+            this.btnTwoScoreDown.Name = "btnTwoScoreDown";
+            this.btnTwoScoreDown.Size = new System.Drawing.Size(34, 32);
+            this.btnTwoScoreDown.TabIndex = 14;
+            this.btnTwoScoreDown.Text = "▼";
+            this.btnTwoScoreDown.UseVisualStyleBackColor = true;
+            this.btnTwoScoreDown.Click += new System.EventHandler(this.btnTwoScoreDown_Click);
+            // 
+            // menuInfo
+            // 
+            this.menuInfo.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tmInfo});
+            this.menuInfo.Location = new System.Drawing.Point(0, 0);
+            this.menuInfo.Name = "menuInfo";
+            this.menuInfo.Size = new System.Drawing.Size(529, 24);
+            this.menuInfo.TabIndex = 15;
+            this.menuInfo.Text = "정보";
+            // 
+            // tmInfo
+            // 
+            this.tmInfo.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tmInfoUse,
+            this.tmInfoHotkey});
+            this.tmInfo.Name = "tmInfo";
+            this.tmInfo.Size = new System.Drawing.Size(43, 20);
+            this.tmInfo.Text = "정보";
+            // 
+            // tmInfoUse
+            // 
+            this.tmInfoUse.Name = "tmInfoUse";
+            this.tmInfoUse.Size = new System.Drawing.Size(180, 22);
+            this.tmInfoUse.Text = "사용법";
+            this.tmInfoUse.Click += new System.EventHandler(this.tmInfoUse_Click);
+            // 
+            // tmInfoHotkey
+            // 
+            this.tmInfoHotkey.Name = "tmInfoHotkey";
+            this.tmInfoHotkey.Size = new System.Drawing.Size(180, 22);
+            this.tmInfoHotkey.Text = "단축키정보";
+            this.tmInfoHotkey.Click += new System.EventHandler(this.tmInfoHotkey_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 9F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(529, 319);
+            this.Controls.Add(this.btnTwoScoreDown);
+            this.Controls.Add(this.btnTwoScoreUp);
+            this.Controls.Add(this.btnOneScoreDown);
+            this.Controls.Add(this.btnOneScoreUp);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtMain);
             this.Controls.Add(this.btnSwitch);
@@ -210,10 +302,16 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.menuInfo);
             this.Font = new System.Drawing.Font("굴림", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.MainMenuStrip = this.menuInfo;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Main";
-            this.Text = "스코어보드프로그램 v1.0";
+            this.Text = "스코어보드프로그램 v2.0";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_Closed);
+            this.Load += new System.EventHandler(this.Main_Load);
+            this.menuInfo.ResumeLayout(false);
+            this.menuInfo.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -235,5 +333,13 @@
         private System.Windows.Forms.TextBox txtMain;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnOneScoreUp;
+        private System.Windows.Forms.Button btnOneScoreDown;
+        private System.Windows.Forms.Button btnTwoScoreUp;
+        private System.Windows.Forms.Button btnTwoScoreDown;
+        private System.Windows.Forms.MenuStrip menuInfo;
+        private System.Windows.Forms.ToolStripMenuItem tmInfo;
+        private System.Windows.Forms.ToolStripMenuItem tmInfoUse;
+        private System.Windows.Forms.ToolStripMenuItem tmInfoHotkey;
     }
 }
